@@ -35,6 +35,8 @@ body.dark-mode {
 }
 
 header {
+  max-width: 950px;
+  margin: 0 auto;
   background: linear-gradient(135deg, var(--primary-color), #f2b8f5);
   color: var(--text-light);
   text-align: center;
@@ -46,7 +48,7 @@ header {
 }
 
 main {
-  max-width: 900px;
+  max-width: 950px;
   margin: 0 auto;
   background: rgba(88, 9, 97, 0.253);
   padding: 2rem;
