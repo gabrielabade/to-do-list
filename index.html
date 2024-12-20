@@ -4,31 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lista de Tarefas</title>
+  <title>Lista de Tarefas Avançada</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <header></header>
+  <header>
+    <h1>Lista de Tarefas</h1>
+    <button id="toggle-theme">🌓</button>
+  </header>
 
   <main>
-    <h1>Lista de tarefas</h1>
-
     <form id="to-do-form">
-      <!-- Campo de entrada para tarefa -->
-      <input type="text" placeholder="Informe sua tarefa..." id="task-title-input">
-      <!-- Botão para adicionar tarefa -->
-      <button type="submit" id="add-task-button">Adicionar</button>
+      <div class="form-row">
+        <input type="text" placeholder="Informe sua tarefa..." id="task-title-input" required>
+      </div>
+      <div class="form-row">
+        <select id="priority-select">
+          <option value="low">Baixa Prioridade</option>
+          <option value="medium">Média Prioridade</option>
+          <option value="high">Alta Prioridade</option>
+        </select>
+        <button type="submit" id="add-task-button">Adicionar Tarefa</button>
+      </div>
     </form>
 
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="Buscar tarefas...">
+    </div>
+
     <section>
-      <!-- Lista de tarefas -->
-      <ul id="todo-list">
-      </ul>
+      <ul id="todo-list"></ul>
     </section>
   </main>
 
-  <footer></footer>
-
+  <footer>
+    <p>&copy; 2024 Lista de Tarefas</p>
+  </footer>
+  
   <script src="./index.js"></script>
 </body>
 
