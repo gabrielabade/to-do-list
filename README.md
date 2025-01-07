@@ -22,3 +22,5 @@ Este é um projeto de Lista de Tarefas, desenvolvido com **HTML**, **CSS** e **J
 - **HTML5**: Estrutura semântica do projeto.
 - **CSS3**: Estilização moderna com transições, animações e design responsivo.
 - **JavaScript**: Manipulação do DOM e gerenciamento de estado com LocalStorage.
+
+![To Do List Preview](./preview.png)  
