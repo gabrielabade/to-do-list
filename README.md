@@ -6,13 +6,13 @@ Este é um projeto de Lista de Tarefas, desenvolvido com **HTML**, **CSS** e **J
 
 ## 🚀 Funcionalidades
 
-- Adicionar novas tarefas com diferentes prioridades (Baixa, Média e Alta).
-- Editar o título de tarefas existentes.
-- Marcar tarefas como concluídas com um indicador visual.
-- Buscar tarefas por título em tempo real.
-- Excluir tarefas da lista.
-- Alternar entre os temas claro e escuro.
-- Persistência de tarefas usando LocalStorage.
+- Adicionar tarefas com diferentes níveis de prioridade (Baixa, Média e Alta).
+- Editar tarefas: Altere o título de tarefas existentes com facilidade.
+- Concluir tarefas: Marque tarefas como concluídas com um indicador visual intuitivo.
+- Buscar tarefas em tempo real: Localize rapidamente tarefas pelo título.
+- Excluir tarefas: Remova tarefas indesejadas ou concluídas.
+- Temas claro/escuro: Altere o tema conforme sua preferência.
+- Persistência de dados: As tarefas são salvas automaticamente no LocalStorage.
 
 
 ---
@@ -22,5 +22,16 @@ Este é um projeto de Lista de Tarefas, desenvolvido com **HTML**, **CSS** e **J
 - **HTML5**: Estrutura semântica do projeto.
 - **CSS3**: Estilização moderna com transições, animações e design responsivo.
 - **JavaScript**: Manipulação do DOM e gerenciamento de estado com LocalStorage.
+
+---
+
+## 🌐 Deploy
+
+Acesse o projeto clicando no link abaixo:  
+[To-Do List](https://gabrielabade.github.io/to-do-list/)  
+
+---
+
+## 📸 Prévia do Projeto  
 
 ![To Do List Preview](./preview.png)  
